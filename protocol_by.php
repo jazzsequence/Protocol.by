@@ -113,8 +113,9 @@ function protocol_by_background() {
 }
 
 function protocol_by_options_validate($input) {
-// Check our textbox option field contains no HTML tags - if so strip them out
-	$input['text_string'] =  wp_filter_nohtml_kses($input['text_string']);	
+	// Check our textbox option field contains no HTML tags - if so strip them out
+	$input['username'] =  esc_html($input['username']); // validates the username field
+	$input['width'] = esc_html($input['width']); // validates the width
 	return $input; // return validated input
 }
 
