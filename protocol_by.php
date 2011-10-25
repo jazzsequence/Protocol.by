@@ -59,7 +59,7 @@ function protocol_by_options() {
 <?php }
 
 function protocol_by_admin_init() {
-	register_setting ( 'protocol_options', 'protocol_options'/*, 'protocol_by_options_validate'*/ );
+	register_setting ( 'protocol_options', 'protocol_options', 'protocol_by_options_validate' );
 	add_settings_section( 'protocol_by_username', 'Protocol.by Username', 'protocol_by_username_text', 'protocol_by' ); // adds a section for Protocol.by username
 	add_settings_field( 'protocol_by_username', 'Username', 'protocol_by_username', 'protocol_by', 'protocol_by_username' ); // adds the actual username setting
 	add_settings_section( 'protocol_by_appearance', 'Protocol.by Appearance Settings', 'protocol_by_appearance_text', 'protocol_by' );  // adds a section for Protocol.by appearance stuff
@@ -113,11 +113,9 @@ function protocol_by_background() {
 }
 
 function protocol_by_options_validate($input) {
-$newinput['text_string'] = trim($input['text_string']);
-if(!preg_match('/^[a-z0-9]$/i', $newinput['text_string'])) {
-$newinput['text_string'] = '';
-}
-return $newinput;
+// Check our textbox option field contains no HTML tags - if so strip them out
+	$input['text_string'] =  wp_filter_nohtml_kses($input['text_string']);	
+	return $input; // return validated input
 }
 
 /**
