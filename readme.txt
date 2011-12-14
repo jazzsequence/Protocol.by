@@ -28,6 +28,11 @@ The world is trying to contact you. Tell them how and when.
 2. Protocol.by embed on a WordPress page
 3. HTML view in WordPress editor for the above screenshot
 
+== Upgrade Notice ==
+
+= 1.0.1 =
+Moves javascript to the footer to improve loading times
+
 == Changelog ==
 
 **Version 1.0.1**
