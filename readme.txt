@@ -3,8 +3,8 @@ Contributors: jazzs3quence
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AWM2TG3D4HYQ6
 Tags: protocol.by, contact, about, mit, gpl3, contact info, embed
 Requires at least: 2.8
-Tested up to: 3.2.1
-Stable tag: 1.0
+Tested up to: 3.3
+Stable tag: 1.0.1
 
 The world is trying to contact you. Tell them how and when.
 
@@ -29,6 +29,11 @@ The world is trying to contact you. Tell them how and when.
 3. HTML view in WordPress editor for the above screenshot
 
 == Changelog ==
+
+**Version 1.0.1**
+
+* tested on WordPress 3.3
+* moved javascript to the footer (better for page loading)
 
 **Version 1.0**
 
