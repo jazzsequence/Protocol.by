@@ -3,9 +3,9 @@
 Plugin Name: Protocol.by
 Plugin URI: https://github.com/ArcanePalette/Protocol.by
 Description: <a href="http://protocol.by" target="_blank">Protocol.by</a> is a service developed by the MIT Media Lab to inform people what the best ways of getting in touch with you are.  This plugin allows you to use the embed code for your Protocol.by profile without having to modify any of your theme's php files.  Once activated, add <code>&lt;div id="protocol"&gt;&lt;/div&gt;</code> in any post or page to display the Protocol.by embed.
-Version: 1.0.1
-Author: Arcane Palette Creative Design
-Author URI: http://arcanepalette.com
+Version: 1.0.2
+Author: Chris Reynolds
+Author URI: https://jazzsequence.com
 License: GPL3
 */
 

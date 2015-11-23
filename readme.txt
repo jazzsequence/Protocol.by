@@ -4,11 +4,17 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: protocol.by, contact, about, mit, gpl3, contact info, embed
 Requires at least: 2.8
 Tested up to: 3.3
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 
 The world is trying to contact you. Tell them how and when.
 
 == Description ==
+
+The Protocol.by service has been sunsetted, therefore this plugin no longer works. :(
+
+Please do not use this plugin. Ever.
+
+================
 
 <a href="http://protocol.by" target="_blank">Protocol.by</a> is a service developed by the MIT Media Lab to inform people what the best ways of getting in touch with you are.  This plugin allows you to use the embed code for your Protocol.by profile without having to modify any of your theme's php files.  Once installed and activated, you don't need to worry about adding the Protocol.by javascript to your header.  The only thing you need to add is `<div id="protocol"></div>` which can be done within any post or page without any theme modification whatsoever.
 
@@ -30,10 +36,15 @@ The world is trying to contact you. Tell them how and when.
 
 == Upgrade Notice ==
 
-= 1.0.1 =
-Moves javascript to the footer to improve loading times
+= 1.0.2 =
+
+There is no longer a Protocol.by service, therefore this plugin no longer accomplishes anything. Please deactivate the plugin.
 
 == Changelog ==
+
+**Version 1.0.2**
+
+* updated readme.txt. Please see Upgrade Notice.
 
 **Version 1.0.1**
 
